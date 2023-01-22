@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(222, 214, 214);
+}
+h1 {
+    background-color: black;
+    color: aqua;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.container{
+    display: flex;
+}
+.list-container {
+    background-color: rgb(157, 200, 175);
+    flex: 5;
+
+}
+.form-container{
+    background-color:rgb(113, 50, 184);
+    flex: 3;
+}
+.my-form{
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.my-form label{
+    display:block;
+    width: 90px;
+}
+
+.main-icon{
+    font-size: 40px;
+    color: rgb(54, 241, 241);
+    cursor: pointer;
+}
+
+#iImportant.important{
+    color: red;
+}
+.task{
+    display: flex;
+}
+.task label{
+    display: block;
+}
