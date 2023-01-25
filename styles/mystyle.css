@@ -10,15 +10,21 @@ h1 {
 
 .container{
     display: flex;
+    background-image: url('https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat ;
+    background-size: cover;
+    height: auto;
 }
 .list-container {
-    background-color: rgb(157, 200, 175);
+    /* background-color: rgb(157, 200, 175); */
     flex: 5;
+    padding: 20px 30px;
 
 }
 .form-container{
-    background-color:rgb(113, 50, 184);
+    background-color:rgba(50, 86, 184, 0.423);
     flex: 3;
+    padding: 20px 30px;
 }
 .my-form{
     margin-bottom: 10px;
@@ -40,8 +46,30 @@ h1 {
     color: red;
 }
 .task{
+    background-color: rgba(240, 248, 255, 0.362);
     display: flex;
+    border: solid 1px black;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    margin-bottom: 12px;
+
 }
 .task label{
     display: block;
+    margin-bottom: 5px;
+}
+.task .col1{
+    flex: 4;
+
+
+}
+.task .col2{
+    flex: 1;
+
+}
+.task .col3{
+    flex: 1;
+
 }
