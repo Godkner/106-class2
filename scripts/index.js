@@ -50,7 +50,17 @@ function saveTask(){
     });
 
     displayTask(task);
+    clearForm();
 
+
+}
+function clearForm(){
+     $("#txtTittle").val(""); // read the text from the control
+     $("#txtDescription").val("");
+     $("#selDueDate").val("");
+     $("#selCategory").val("Select an option");
+     $("#txtContact").val("");
+     $("#selStatus").val("Select an option");
 
 }
 

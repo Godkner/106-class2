@@ -73,3 +73,26 @@ h1 {
     flex: 1;
 
 }
+
+.list-container h2{
+    text-align: center;
+    color: aqua;
+    text-shadow: 2px 2px 5px rgb(255, 255, 255);
+}
+/* buttons */
+#btn-list{
+    transition-duration: 0.4s;
+    border: 2px solid #008CBA;
+    background-color: rgb(0, 0, 0);
+    border-radius: 2px;
+    color: white;
+    padding: 5px;
+    margin-bottom: 5px;
+    
+}
+#btn-list:hover{
+     
+    color: rgb(255, 255, 255);
+    background-color: rgb(31, 31, 129);
+    
+}
